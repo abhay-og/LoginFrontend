@@ -7,11 +7,11 @@ const Navbar = () => {
         <Toolbar>
           <Typography variant='h5' component="div" sx={{ flexGrow: 1 }}>Trimp Royale</Typography>
 
-          <Button component={NavLink} to='/' style={({ isActive }) => { return { backgroundColor: isActive ? '#FA5B3C' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Home</Button>
+          <Button component={NavLink} to='/' style={({ isActive }) => { return { backgroundColor: isActive ? '#FFC594' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Home</Button>
 
-          <Button component={NavLink} to='/contact' style={({ isActive }) => { return { backgroundColor: isActive ? '#FA5B3C' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Contact</Button>
+          <Button component={NavLink} to='/contact' style={({ isActive }) => { return { backgroundColor: isActive ? '#FFC594' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Contact</Button>
 
-          <Button component={NavLink} to='/login' style={({ isActive }) => { return { backgroundColor: isActive ? '#FA5B3C' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Login/Registration</Button>
+          <Button component={NavLink} to='/login' style={({ isActive }) => { return { backgroundColor: isActive ? '#FFC594' : '' } }} sx={{ color: 'white', textTransform: 'none' }}>Login/Registration</Button>
 
         </Toolbar>
       </AppBar>

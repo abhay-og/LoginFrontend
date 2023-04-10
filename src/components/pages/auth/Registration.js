@@ -126,7 +126,8 @@ const Registration = () => {
           id="date_of_birth"
           name="date_of_birth"
           label="Date of Birth"
-          type="date-local"
+          type="date"
+          defaultValue=""
           InputLabelProps={{
             shrink: true,
           }}
@@ -141,6 +142,7 @@ const Registration = () => {
             type="submit"
             variant="contained"
             sx={{ mt: 3, mb: 2, px: 5 }}
+            style={{backgroundColor:"#FF900B"}}
           >
             Register
           </Button>
