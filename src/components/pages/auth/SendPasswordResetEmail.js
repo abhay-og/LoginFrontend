@@ -52,7 +52,7 @@ const SendPasswordResetEmail = () => {
               <Button
                 type="submit"
                 variant="contained"
-                sx={{ mt: 3, mb: 2, px: 5 }}
+                sx={{ mt: 3, mb: 2, px: 5, backgroundColor: "#FF900B" }}
               >
                 Send
               </Button>

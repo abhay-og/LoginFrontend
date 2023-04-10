@@ -45,6 +45,11 @@ const UserLogin = () => {
           InputLabelProps={{
             shrink: true,
           }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
+          }}
         />
 
         <TextField
@@ -57,6 +62,11 @@ const UserLogin = () => {
           type="password"
           InputLabelProps={{
             shrink: true,
+          }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
           }}
         />
 

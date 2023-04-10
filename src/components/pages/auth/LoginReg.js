@@ -36,10 +36,6 @@ const LoginReg = () => {
           <Card sx={{ width: "100%", height: "100%" }}>
             <Box sx={{ mx: 3, height: 530 }}>
               <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-                {/* <Tabs value={value} indicatorColor='secondary' textColor='secondary' onChange={handleChange}>
-                <Tab label='Login' sx={{ textTransform: 'none', fontWeight: 'bold' }}></Tab>
-                <Tab label='Registration' sx={{ textTransform: 'none', fontWeight: 'bold' }}></Tab>
-              </Tabs> */}
                 <Tabs
                   value={value}
                   onChange={handleChange}
@@ -47,10 +43,11 @@ const LoginReg = () => {
                     "& .MuiTabs-indicator": {
                       backgroundColor: "#FF900B",
                     },
-                    "& .MuiTab-root": {
+                    "& .Mui-selected": {
                       color: "#FF900B",
+                    },
+                    "& .MuiTab-label, & .MuiTab-wrapper": {
                       textTransform: "none",
-                      fontWeight: "bold",
                     },
                   }}
                 >

@@ -72,6 +72,11 @@ const Registration = () => {
           InputLabelProps={{
             shrink: true,
           }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
+          }}
         />
         <TextField
           margin="normal"
@@ -82,6 +87,11 @@ const Registration = () => {
           label="Email Address"
           InputLabelProps={{
             shrink: true,
+          }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
           }}
         />
         <TextField
@@ -95,6 +105,11 @@ const Registration = () => {
           InputLabelProps={{
             shrink: true,
           }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
+          }}
         />
         <TextField
           margin="normal"
@@ -107,6 +122,11 @@ const Registration = () => {
           InputLabelProps={{
             shrink: true,
           }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
+          }}
         />
         <TextField
           margin="normal"
@@ -117,6 +137,11 @@ const Registration = () => {
           label="Contact Number"
           InputLabelProps={{
             shrink: true,
+          }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
           }}
         />
         <TextField
@@ -130,6 +155,11 @@ const Registration = () => {
           defaultValue=""
           InputLabelProps={{
             shrink: true,
+          }}
+          sx={{
+            "& .MuiInputBase-input": {
+              height: "15px",
+            },
           }}
         />
 
